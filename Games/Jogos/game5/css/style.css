@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Josefin Sans";
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+}
+
+.body-player {
+  display: flex;
+}
+
+.player-options,
+.enemy-options {
+  width: 50%;
+}
+
+.player-options img {
+  width: 150px;
+  display: block;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.enemy-options img {
+  width: 150px;
+  display: block;
+  opacity: 0.3;
+}
+
+.resultado {
+  margin-right: 50px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: rgb(59, 59, 238);
+  height: 150px;
+  padding: 20px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.vencedor {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .resultado {
+    margin-top: 20px;
+  }
+}

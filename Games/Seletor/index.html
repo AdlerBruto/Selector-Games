@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.8/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Seletor de Jogos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Olá, <span class="username"></span> </h1>
+        <div>
+            <input type="checkbox" name="change-theme" id="change-theme" />
+            <label for="change-theme">
+                <i class="bi bi-sun"></i>
+                <i class="bi bi-moon"></i></label>
+        </div>
+    </header>
+
+    <div id="menu" class="menu">
+        <button id="btn_home" class="aba abaSelecionada">Home</button>
+        <button id="btn_jogo1" class="aba">Jogo da Velha</button>
+        <button id="btn_jogo2" class="aba">Jogo da Memória</button>
+        <button id="btn_jogo3" class="aba">Jogo da Cobrinha</button>
+        <button id="btn_jogo4" class="aba">Quiz</button>
+        <button id="btn_jogo5" class="aba">Pedra Papel Tesoura</button>
+        <button id="btn_exit" class="aba"> Sair </button>
+    </div>
+
+    <div id="principal" class="principal">
+        <iframe name="if_principal" id="if_principal" class="if_principal" src="./home/home.html"></iframe>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.8/dist/sweetalert2.all.min.js"></script>
+</body>
+
+</html>
